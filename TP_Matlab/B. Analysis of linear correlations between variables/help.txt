@@ -1,0 +1,26 @@
+Pour analyser les corrélations linéaires entre les variables de l'ensemble de données Iris, nous allons procéder en plusieurs étapes, conformément à vos instructions. Le langage MATLAB offre des outils puissants pour effectuer ce type d'analyse.
+
+Étape 1: Affichage des Nuages de Points par Paires de Variables
+Pour chaque paire de variables, nous afficherons un nuage de points (scatter plot), où chaque point est coloré en fonction de son label (espèce d'Iris). Cela nécessite l'utilisation de boucles pour parcourir chaque combinaison de variables.
+
+Étape 2: Calcul des Corrélations
+Nous utiliserons la fonction corr pour calculer le coefficient de corrélation 
+�
+r pour chaque paire de variables au sein de chaque groupe. Le carré de ce coefficient, 
+�
+2
+r 
+2
+ , indique la proportion de la variance dans la variable dépendante qui est prévisible à partir de la variable indépendante.
+
+Étape 3: Tracé des Lignes de Régression
+Pour chaque paire de variables ayant une corrélation significative, nous tracerons la ligne de régression linéaire sur le nuage de points. Nous utiliserons la fonction polyfit pour obtenir les coefficients de la régression linéaire, et polyval pour évaluer la valeur de la régression sur une série de points. Nous afficherons également la valeur de 
+�
+2
+r 
+2
+  sur le graphique.
+
+
+
+Ce code crée un graphique pour chaque paire de variables, affiche les nuages de points pour chaque espèce dans des couleurs différentes, calcule la corrélation entre ces variables pour chaque espèce, et trace la ligne de régression si la corrélation est significative. Notez que r^2 et la significativité (p) sont calculés, mais seuls les résultats significatifs sont utilisés pour tracer la ligne de régression. Vous pouvez adapter ce code pour inclure toutes les variables et paires que vous souhaitez analyser.
