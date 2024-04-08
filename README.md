@@ -27,5 +27,5 @@ Pour accéder au travail réalisé, suivez les étapes suivantes :
 
 tarakdarza
 https://github.com/tarakdarza
-Développeur principal
+
 
