@@ -25,7 +25,7 @@ Pour accéder au travail réalisé, suivez les étapes suivantes :
 
 ### Auteur
 
-tarakdarza
+Tarak Darza
 https://github.com/tarakdarza
 
 
